@@ -186,3 +186,73 @@ git push
 
 The repository contains source files and configuration scripts rather than virtual machine images or binary packages.
 
+
+
+
+
+\## 8. Technical Questions and Answers
+
+
+
+\*\*File:\*\* `Technical\_Questions\_Answers.md`
+
+
+
+This file contains theoretical explanations covering Linux, SQL/PLSQL, Apache Tomcat, Docker, Kubernetes, Git, RAID, DevOps, High Availability, Disaster Recovery, Cloud Computing, DNS, and Load Balancing.
+
+
+
+\## 9. Final Verification
+
+
+
+The following configurations were successfully tested:
+
+
+
+\- Apache Tomcat 9 running on port 7070.
+
+\- Nginx configured as a reverse proxy to Tomcat.
+
+\- HTTP request to `http://ubuntu-server` on port 80 returned status 200.
+
+\- Tomcat content was accessible through the server hostname.
+
+\- Vagrant virtual machine accessible through `http://localhost:9090`.
+
+\- Docker containers for Nginx, PostgreSQL, and Tomcat.
+
+\- Kubernetes sample deployment with a running Nginx Pod.
+
+\- Linux firewall rules allowing TCP and UDP traffic on port 3306.
+
+
+
+\## 10. Project Links
+
+
+
+\*\*GitHub Repository:\*\*
+
+https://github.com/karamabutahoun/ProgressSoft-Assignment
+
+
+
+\*\*Docker Hub Repository:\*\*
+
+https://hub.docker.com/r/karam1o1/progresssoft-tomcat
+
+
+
+\## 11. Additional Files
+
+
+
+\- `server\_info.sh` — Linux system information script.
+
+\- `firewall\_status.txt` — Verified UFW firewall configuration.
+
+\- `Technical\_Questions\_Answers.md` — Theoretical questions and answers.
+
+
+
